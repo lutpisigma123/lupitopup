@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top-Up Semua Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>GameTopUp</h1>
+    <nav>
+      <ul>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="games">
+      <h2>Pilih Game Favorit Anda</h2>
+      <div class="game-list">
+        <div class="game" onclick="openTopUp('Mobile Legends')">
+          <img src="https://via.placeholder.com/150" alt="Mobile Legends">
+          <p>Mobile Legends</p>
+        </div>
+        <div class="game" onclick="openTopUp('Free Fire')">
+          <img src="https://via.placeholder.com/150" alt="Free Fire">
+          <p>Free Fire</p>
+        </div>
+        <div class="game" onclick="openTopUp('PUBG Mobile')">
+          <img src="https://via.placeholder.com/150" alt="PUBG Mobile">
+          <p>PUBG Mobile</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Pilih game yang ingin Anda top-up.</li>
+        <li>Masukkan ID akun game dan nominal.</li>
+        <li>Lakukan pembayaran, dan selesai!</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 GameTopUp. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
